@@ -2,6 +2,12 @@
 
 A macOS terminal UI (TUI) disk space scanner built with Rust and [Ratatui](https://ratatui.rs).
 
+## Install
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/quangtruongnb/disktree/main/install.sh | sh
+```
+
 ## Features
 
 - Recursively scans directories and displays disk usage as an interactive tree
@@ -9,12 +15,9 @@ A macOS terminal UI (TUI) disk space scanner built with Rust and [Ratatui](https
 - Move files/folders to Trash
 - Keyboard-driven navigation
 
-## Requirements
+## Build from Source
 
-- macOS
-- Rust 1.70+
-
-## Installation
+Requires macOS and Rust 1.70+.
 
 ```sh
 cargo install --path .
