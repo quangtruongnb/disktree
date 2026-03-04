@@ -38,8 +38,10 @@ disk-tree /path/to/dir
 | Key | Action |
 |-----|--------|
 | `↑` / `↓` | Navigate |
-| `Enter` | Expand/collapse |
-| `d` | Move to Trash |
+| `→` | Open |
+| `←` | Back |
+| `r` | Root |
+| `d` | Trash |
 | `q` | Quit |
 
 ## Dependencies
